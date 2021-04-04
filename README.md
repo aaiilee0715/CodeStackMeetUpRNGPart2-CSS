@@ -15,7 +15,8 @@
   ### For this meetup, we will be showing you all how we can style this project a little more. <br>
    ► We will show you tips and trick, step-by-step, on how we can turn ⬆️ to ⬇️
 
-   ![CSS](https://user-images.githubusercontent.com/61571099/113489373-be9eda00-9478-11eb-8b1d-398d0d874ac1.png)
+  <img width="1391" alt="RaccaandChansy(css)" src="https://user-images.githubusercontent.com/61571099/113518784-451cef80-953d-11eb-854f-f4d3e9efcfbf.png">
+
 
    
    
