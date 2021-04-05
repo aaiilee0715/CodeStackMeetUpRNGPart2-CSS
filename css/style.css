@@ -1,4 +1,5 @@
 /* Cascading Style Sheet */
+
 /* animation linear gradient background */
 
 body {
@@ -8,19 +9,29 @@ body {
     background-size: 400% 400%;
     animation: BackgroundGradient 20s ease infinite;
     color: white;
+    text-align: center;
 }
 
 /* this is an addon for the container box↓↓ */
 
 .container {
-    width: 800px;
+    max-width: 800px;
+    width: 100%;
+}
+
+.glow {
     height: auto;
     font-size: 20px;
     margin: auto;
     margin-top: 50px;
-    margin-bottom: 80px;
-    border-radius: 40px;
-    box-shadow: 4px 4px 10px #61017F;
+    margin-bottom: 50px;
+    border-radius: 5px;
+    border: dotted white 20px;
+    box-shadow: 0px 4px 50px #ff8383;
+}
+
+.glow:hover {
+    box-shadow: 0px 4px 50px #8392ff;
 }
 
 /* Center corresponding child elements within its grid area */
@@ -41,16 +52,17 @@ body {
 
 /* remove background color and box shadow↓ */
 
-.title {
-    margin-top: 25px;
-    font-size: 50px;
-    font-weight: 600;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-style: italic;
+#title {
+    /* margin-top: 25px; */
+    font-size: 300px;
+    /* line-height: 90%; */
+    /* font-weight: 600; */
+    font-family: 'Monoton', cursive;
+    /* font-style: italic; */
     /* background-color: rgb(80, 63, 230); */
     /* box-shadow: 5px 5px 10px black; */
-    padding: 10px 10px 10px 10px;
-    color: white;
+    /* padding: 10px 10px 10px 10px; */
+    /* color: pink; */
 }
 
 /* add keyframes for animation on top↓ 
@@ -72,44 +84,45 @@ learn more at https://www.w3schools.com/css/css3_animations.asp */
     color: white;
 }
 
-.extraMargin {
-    margin-top: 25px;
-}
+/* .extraMargin {
+    margin-top: 50px;
+} */
 
 .nameGenBG {
     margin-top: 50px;
     /* change background color↓ */
-    background-color: #52474380;
-    padding-bottom: 50px;
+    background-color: #ffffff27;
+    /* padding-bottom: 50px; */
     /* add border-radius: ↓ */
-    border-radius: 40px;
+    /* border-radius: 40px; */
 }
 
-.nameGenFont {
-    font-family: Georgia, 'Times New Roman', Times, serif;
+#name {
+    font-family: 'Lobster', cursive;
     /* change font size to smaller↓ */
-    font-size: 24px;
-    margin-top: 50px;
+    font-size: 60px;
+    margin: 50px;
     /* change font color↓ */
     color: white;
-    font-weight: bold;
+    /* font-weight: bold; */
 }
 
-.marginRight {
+/* .marginRight {
     margin-right: 30px;
-}
+} */
 
 /* Editing styling for btn group and NameGen Btn */
 
 .btnSize {
     padding: 15px 15px 15px 15px;
+    margin-bottom: 50px;
     font-size: 30px;
 }
 
 .buttonPadding {
     font-size: 25px;
     /* change color text to white ↓ */
-    color:white;
+    color: white;
 }
 
 .btn:hover {
@@ -120,17 +133,19 @@ learn more at https://www.w3schools.com/css/css3_animations.asp */
 
 .btn {
     border-radius: 20px;
-
+    padding: 15px 50px !important;
 }
 
 .footer {
-    height: 50px;
-    left: 0;
-    bottom: 0;
+    /* height: 50px; */
     width: 100%;
-    background-color: transparent;
+    /* background-color: transparent; */
     color: white;
     /* changed font size ↓ */
-    font-size: 30px;
+    font-size: 15px;
+    letter-spacing: 7px;
     text-align: center;
+    text-transform: uppercase;
+    /* border: solid white 1px; */
+    padding: 25px 0;
 }
