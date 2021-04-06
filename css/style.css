@@ -48,7 +48,12 @@ body {
     max-width: 800px;
     width: 100%;
 }
+/* Center corresponding child elements within its grid area */
 
+.center {
+    display: flex;
+    justify-content: center;
+}
 .btnSize {
     padding: 15px 15px 15px 15px;
     margin-bottom: 50px;
