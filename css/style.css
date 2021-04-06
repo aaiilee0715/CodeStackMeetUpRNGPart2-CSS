@@ -48,7 +48,6 @@ body {
     max-width: 800px;
     width: 100%;
 }
-/* Center corresponding child elements within its grid area */
 
 .center {
     display: flex;
