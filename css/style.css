@@ -3,11 +3,12 @@
 /* animation linear gradient background */
 
 body {
-    height: 110vh;
+    /* height: 110vh; */
     /* add the following below↓ */
     background: linear-gradient(132deg, #ec5118cb, #1665c1);
     background-size: 400% 400%;
     animation: BackgroundGradient 20s ease infinite;
+    /* this will target all text so all of the document will have white text, no need to include it in other spots... */
     color: white;
     text-align: center;
 }
@@ -34,35 +35,13 @@ body {
     box-shadow: 0px 4px 50px #8392ff;
 }
 
-/* Center corresponding child elements within its grid area */
-
-.center {
-    display: flex;
-    justify-content: center;
-}
-
 /* styling title */
-
-/* add transparent ↓ */
-
-.titleBG {
-    background-color: transparent;
-    /* background-color: rgb(80, 63, 230); */
-}
 
 /* remove background color and box shadow↓ */
 
 #title {
-    /* margin-top: 25px; */
     font-size: 300px;
-    /* line-height: 90%; */
-    /* font-weight: 600; */
     font-family: 'Monoton', cursive;
-    /* font-style: italic; */
-    /* background-color: rgb(80, 63, 230); */
-    /* box-shadow: 5px 5px 10px black; */
-    /* padding: 10px 10px 10px 10px; */
-    /* color: pink; */
 }
 
 /* add keyframes for animation on top↓ 
@@ -80,21 +59,10 @@ learn more at https://www.w3schools.com/css/css3_animations.asp */
     }
 }
 
-.subtitle {
-    color: white;
-}
-
-/* .extraMargin {
-    margin-top: 50px;
-} */
-
 .nameGenBG {
     margin-top: 50px;
     /* change background color↓ */
     background-color: #ffffff27;
-    /* padding-bottom: 50px; */
-    /* add border-radius: ↓ */
-    /* border-radius: 40px; */
 }
 
 #name {
@@ -102,14 +70,7 @@ learn more at https://www.w3schools.com/css/css3_animations.asp */
     /* change font size to smaller↓ */
     font-size: 60px;
     margin: 50px;
-    /* change font color↓ */
-    color: white;
-    /* font-weight: bold; */
 }
-
-/* .marginRight {
-    margin-right: 30px;
-} */
 
 /* Editing styling for btn group and NameGen Btn */
 
@@ -121,8 +82,6 @@ learn more at https://www.w3schools.com/css/css3_animations.asp */
 
 .buttonPadding {
     font-size: 25px;
-    /* change color text to white ↓ */
-    color: white;
 }
 
 .btn:hover {
@@ -137,15 +96,16 @@ learn more at https://www.w3schools.com/css/css3_animations.asp */
 }
 
 .footer {
-    /* height: 50px; */
     width: 100%;
-    /* background-color: transparent; */
-    color: white;
     /* changed font size ↓ */
     font-size: 15px;
     letter-spacing: 7px;
     text-align: center;
     text-transform: uppercase;
-    /* border: solid white 1px; */
     padding: 25px 0;
+}
+
+.row {
+    margin: 0px!important;
+    padding: 0px!important;
 }
