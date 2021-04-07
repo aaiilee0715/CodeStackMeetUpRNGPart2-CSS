@@ -1,6 +1,14 @@
 /* target element name */
 
-div{
-    color:darkcyan
+#title {
+    font-family: 'Monoton', cursive;
+    font-size: 300px;
+    
+    
 }
 
+#name {
+    font-family: 'Lobster', cursive;
+    font-size: 60px;
+    margin: 50px;
+}
