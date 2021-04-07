@@ -61,3 +61,10 @@ body {
     margin-top: 50px;
 }
 
+footer{
+    font-size: 15px;
+    letter-spacing: 7px;
+    text-transform: uppercase;
+    padding: 25px 0;
+}
+
