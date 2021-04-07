@@ -1,6 +1,67 @@
 /* target element name */
 
-div{
-    color:darkcyan
+/* 
+font-family: 'Lobster', cursive;
+font-family: 'Monoton', cursive; 
+*/
+
+div {
+    color: darkcyan
 }
 
+#codestackMeetup {
+    intro-to: CSS;
+    with: Joseph Racca;
+    and: Anothay Chansy;
+}
+
+/* //html element names*/
+
+/* ruleset */
+
+div {
+    /* //declaration */
+    /* property */
+    /* value */
+    color: darkolivegreen;
+}
+
+/* target id */
+
+#customId {
+    background-color: deeppink;
+}
+
+/* target class */
+
+.classOne {
+    background-color: gold!important;
+}
+
+.classTwo {
+    border: 5px solid blue;
+}
+
+.classThree {
+    font-size: 100px;
+}
+
+body {
+    background-color: cyan;
+}
+
+#title {
+    font-family: 'Monoton', cursive;
+    font-size: 300px;
+    color: white;
+}
+
+#name {
+    font-family: 'Lobster', cursive;
+    font-size: 60px;
+    margin: 50px;
+    /* element/content */
+    /* margin */
+    /* border */
+    /* padding */
+}
