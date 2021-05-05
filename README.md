@@ -1,5 +1,8 @@
 # Cascading Style Sheets with Joseph Racca and Anothay Chansy<br>
 ## Welcome back to part ✌️ of *Random Name Generator* ✨
+![Screenshot (552)](https://user-images.githubusercontent.com/61571099/117103203-be6f5400-ad2e-11eb-9a41-cc7ed4d74c81.png)
+
+
 ► This is a continuation from <b> Wednesday, March 24, 2021
 [CodeStack Virtual Meetup](https://www.meetup.com/CodeStack)  - Javascript Projects! <br> 
   🔸 Beginner JavaScript Project - Random Name Generator using Arrays by Alex Ato and Kenneth Martinez🧮<br>
